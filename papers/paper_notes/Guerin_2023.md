@@ -1,37 +1,32 @@
 # Revisiting the Cox and Munk wave-slope statistics using IASI observations of the sea surface
 
-## C.-A. Guerin et al. (2023), Remote Sensing of Environment
+**C.-A. Guerin et al. (2023), Remote Sensing of Environment**
 
+**Created:** 2025-11-13 / **Updated:** 2025-11-13  
 **Keywords:** #keyword1 #keyword2 #keyword3  
-**Created:** YYYY-MM-DD  
-**Updated:** YYYY-MM-DD  
+
+---
+## 체크리스트
+- **Day 1**: 초록/서론/결론 + 주요 그림들, 스킴 파악 (Section 1, 2)  
+- **Day 2**: 핵심 수식·모델 및 방법론 정독 (Section 2, 3)  
+- **Day 3**: 결과·논의 내용 분석 (Section 4, 5, 6)  
 
 ---
 
-## 1. 한 문장 요약
-논문의 핵심 기여를 한 줄로 요약.
+## 1. 개요
+이 논문은 IASI의 적외선 채널 관측을 활용해서 물리적 접근을 기반으로 **해수면 파동 경사의 확률 분포**를 결정하는 연구를 수행했다. 선행 연구인 Cox and Munk (1954, CM)에서는 이러한 확률 분포를 Gram-Charlier 방법으로 표현하였으며, 이 논문에서는 확률 분포의 7개 파라미터를 보다 물리적인 방식으로 정확하게 산출하였다. 파동 경사와 관련된 mean square slope, kurtosis, skewness 등의 풍속에 대한 관계를 정량적으로 밝혔으며, 일부는 CM과 일치하지만 다른 부분은 CM과 다르거나 보다 정확하게 밝혀냈다. 다만 이 확률 분포는 풍속만으로 결정되지는 않는 것으로 보이며, 다른 대기 해양 변수에 대한 후속 연구가 필요할 수 있다.
 
 ---
 
-## 2. 핵심 기여 (3–5줄)
-- 이 논문이 해결하려는 문제  
-- 새롭게 제안한 모델/식/알고리즘  
-- 기존 연구 대비 어떤 점이 개선되었는지  
-- 어떤 센서·자료로 검증했는지  
-
----
-
-## 3. 핵심 수식 / 파라미터 (중요한 것 3–6개)
+## 2. 핵심 구조
 - Eq(x): 내용  
 - Eq(x): 내용  
 - 파라미터: 정의 및 의미  
-- 모델 구성 요소  
-
-> 실제 코드 구현 시 필요한 항목만 적어도 충분  
+- 모델 구성 요소   
 
 ---
 
-## 4. 사용 데이터 & 조건
+## 3. 방법론
 - 센서:  
 - 환경 조건(풍속, SST, SSS 등):  
 - Validation 방식:  
@@ -39,44 +34,29 @@
 
 ---
 
-## 5. 내 연구에서의 활용 포인트
+## 4. 연구 활용 포인트
 - RTM/모델 개선 관점에서 적용 가능성  
 - 내 코드에 반영해야 할 항목  
 - 주의할 점  
 - TODO 리스트  
 
-예:
-- TODO: Eq(19)의 azimuth term을 GL 적분 모듈에 반영  
-- TODO: 유전율 모델 비교에 활용  
+---
+
+## 5. 상세 내용
 
 ---
 
-## 6. 이 논문이 속하는 주제 (GitHub Wiki 링크)
-- [[../topics/two_scale/overview.md]]  
-- [[../topics/surface_roughness/overview.md]]  
-- [[../topics/dielectric/overview.md]]  
-- [[../topics/RTM/overview.md]]  
+## 6. 같이보기
+- 이 Wiki 내부의 주제
+  - [[../topics/two_scale/overview.md]]  
+  - [[../topics/surface_roughness/overview.md]]  
+  - [[../topics/dielectric/overview.md]]  
+  - [[../topics/RTM/overview.md]]  
 
-(필요한 것만 남기고 삭제)
-
----
-
-## 7. 관련 논문 (Follow-up)
-- 후속 연구:  
-- 선행 연구:  
-- 같은 모델 계열:  
-- 비교해야 할 key papers:  
-
----
-
-## 8. 기억할 문장 / Figures (선택)
-- 인용하고 싶은 문장  
-- 중요한 Figure 번호 메모  
-- 특이한 실험 구성  
-
----
-
-## 9. 상세 요약 (여유 있을 때만)
-처음에는 비워두고 연구 필요 시 점진적으로 업데이트.
+- 관련 논문
+  - 후속 연구:  
+  - 선행 연구:  
+  - 같은 모델 계열:  
+  - 비교해야 할 key papers:  
 
 ---
