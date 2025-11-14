@@ -1,0 +1,22 @@
+title: "Research Notes"
+description: "My personal research knowledge base"
+theme: jekyll-theme-slate
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+plugins:
+  - jekyll-relative-links
+
+relative_links:
+  enabled: true
+  collections: true
+
+include:
+  - index.md
+  - paper_notes
+  - topics
+
+exclude:
+  - README.md
