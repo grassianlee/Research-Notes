@@ -26,5 +26,5 @@ paper_notes 폴더의 노트 중 상위 몇 개만 예시로 나열:
 ---
 
 ## 🔍 전체 목록 보기
-- [Paper Notes 전체보기](./paper_notes/)
-- [Topics 전체보기](./topics/)
+- [Paper Notes 전체보기](./papers/paper_notes/)
+- [Topics 전체보기](./papers/topics/)
