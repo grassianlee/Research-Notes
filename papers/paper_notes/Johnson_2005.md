@@ -3,13 +3,7 @@
 **Johnson (2005), IEEE TGRS**
 
 **Created:** 2026-01-02 / **Updated:** 2026-01-02  
-**Keywords:** #keyword1 #keyword2 #keyword3  
-
----
-## 체크리스트
-- **Day 1**: 초록/서론/결론 + 주요 그림들, 스킴 파악 (Section 1, 2)  
-- **Day 2**: 핵심 수식·모델 및 방법론 정독 (Section 2, 3)  
-- **Day 3**: 결과·논의 내용 분석 (Section 4, 5, 6)  
+**Keywords:** Small slope approximation, thermal emission, reflection of downwelling brightness  
 
 ---
 
@@ -27,17 +21,18 @@
 ---
 
 ## 3. 방법론
-- 실험, 데이터, 절차, 설정/가정.
+- Section III는 생략함.
 
 ---
 
 ## 4. 연구 활용 포인트
-- 내 연구와 연관점, 한계, 할 것들.
+- 대기 하향복사는 산란계수에 대한 직접적인 고려가 필수적인데, two-scale 방법에서 어떤 cutoff를 택하더라도 active SSA와 결과 차이가 상당히 있었다. Two-scale 모형으로 계산된 대기 하향복사를 어느 정도 믿을 수 있을지 고민이 필요하다.
 
 ---
 
 ## 5. 상세 내용
-- 메모
+- 적어도 SSA3를 사용해야 밝기온도 모의가 제대로 가능한 것으로 보인다.
+- 표면의 높이 규모가 클 때 SSA와 two-scale 방법의 모의 밝기온도 차이가 컸으며, 적절한 cutoff 파수를 찾는 것이 어렵다.
 
 ---
 
