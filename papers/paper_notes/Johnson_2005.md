@@ -2,7 +2,7 @@
 
 **Johnson (2005), IEEE TGRS**
 
-**Created:** 2026-01-02 / **Updated:** 2026-01-02  
+**Created:** 2026-01-02 / **Updated:** 2026-01-03  
 **Keywords:** Small slope approximation, thermal emission, reflection of downwelling brightness  
 
 ---
