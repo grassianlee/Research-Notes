@@ -2,14 +2,8 @@
 
 **Johnson and Cai (2002), IEEE Transactions on Geoscience and Remote Sensing**
 
-**Created:** 2026-01-08 / **Updated:** 2026-01-08  
-**Keywords:** #keyword1 #keyword2 #keyword3  
-
----
-## 체크리스트
-- **Day 1**: 초록/서론/결론 + 주요 그림들, 스킴 파악 (Section 1, 2)  
-- **Day 2**: 핵심 수식·모델 및 방법론 정독 (Section 2, 3)  
-- **Day 3**: 결과·논의 내용 분석 (Section 4, 5, 6)  
+**Created:** 2026-01-08 / **Updated:** 2026-01-09  
+**Keywords:** Small slope approximation, Up/downwind asymmetry, hydrodynamic modulation
 
 ---
 
@@ -19,22 +13,27 @@
 ---
 
 ## 2. 핵심 구조
-- 개념, 이론, 식, 모델.  
+- 풍상/풍하측의 비대칭성은 밝기온도의 1차 azimuth harmonic 계수에 의해 직접적으로 결정된다.
+- 3차 SSA: 표면의 bispectrum과 가중함수에 의존한다. 현재는 bispectrum에 대한 지식이 제한적이므로 밝기온도의 직접적인 계산은 어렵고, 아래와 같이 근사한다.
+- 장파 효과: 가중함수를 테일러 전개 후 정리하면, 1차 azimuth harmonic을 함수 l과 3차 slope moment의 곱으로 표현할 수 있다.
+- 단파 modulation: 가중함수를 테일러 전개 후, reduced bispectra를 도입하여 정리하면, 1차 azimuth harmonic을 간단하게 표현할 수 있다.
 
 ---
 
 ## 3. 방법론
-- 실험, 데이터, 절차, 설정/가정.
+- 대체로 이론 연구이므로 생략.
 
 ---
 
 ## 4. 연구 활용 포인트
-- 내 연구와 연관점, 한계, 할 것들.
+- Hydrodynamic modulation을 어떻게 처리해야 할까?
 
 ---
 
 ## 5. 상세 내용
-- 메모
+- 장파 효과를 관측(JPL)과 비교했다. 장파 효과는 풍속이 강할 때 장파의 비대칭성으로 인해 증가하나, 이것만으로 관측을 설명하기는 부족하다.
+- Critical phenomena 영역의 단파는 장파-단파 modulation 효과에 큰 영향을 줄 수 있다.
+- Reduced bispectra 모델을 가정하여(Yueh 1997, Elfouhaily 2001) 계산했을 때, 관측(JPL)과 비교하면 Yueh의 모형이 좀 더 가깝게 나타났다.
 
 ---
 
